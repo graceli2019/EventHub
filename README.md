@@ -1,3 +1,8 @@
+## Playwright: page fixture vs browser context
+
+- The `page` fixture gives you one ready-to-use page for the test.
+- A `browser context` is a separate browser session container that can create its own pages.
+- A fresh browser context starts with isolated state (no cookies, storage, or session data from other contexts).
 # EventHub
 
 This project uses Playwright for end-to-end testing.
